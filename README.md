@@ -89,3 +89,14 @@ Przykład swojej mapy po grze (wygranej; nie wszytkie okręty zatopione):
 Zadanie nie ma testów automatycznych, ani nawet określonej struktury projektu (należy ją zrobić samemu).
 
 Zaliczenie będzie polegało na rozegraniu kilku partii pomiędzy uczestnikami zajęć na następnym laboratorium.
+
+### Uruchomienie:
+```javac *.java```
+
+Terminal 1:
+```java Main -mode server -port 5000```
+
+Terminal 2:
+```java Main -mode client -host localhost -port 5000```
+
+Istnieje również możliwość dopisania -manual i grania jako człowiek
